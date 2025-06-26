@@ -35,25 +35,25 @@ function NavBar() {
 
                     <div className="hidden md:flex items-center space-x-8">
                         <a
-                            className="text-blue-600 font-bold cursor-pointer hover:bg-blue-600 hover:text-white px-4 py-2 rounded-lg"
+                            className="text-purple-dark font-bold cursor-pointer hover:bg-purple-light hover:text-white px-4 py-2 rounded-lg"
                             onClick={() => handleNavigation('')}
                         >
                             Inicio
                         </a>
                         <a
-                            className="text-blue-600 font-bold cursor-pointer hover:bg-blue-600 hover:text-white px-4 py-2 rounded-lg"
+                            className="text-purple-dark font-bold cursor-pointer hover:bg-purple-light hover:text-white px-4 py-2 rounded-lg"
                             onClick={() => handleNavigation('projects')}
                         >
-                            Trabajos hechos
+                            Clientes
                         </a>
                         <a
-                            className="text-blue-600	 font-bold cursor-pointer hover:bg-blue-600 hover:text-white px-4 py-2 rounded-lg"
+                            className="text-purple-dark	font-bold cursor-pointer hover:bg-purple-light hover:text-white px-4 py-2 rounded-lg"
                             onClick={() => handleNavigation('aboutUs')}
                         >
-                            Sobre nosotros
+                            Nosotros
                         </a>
                         <a
-                            className="text-blue-600	 font-bold cursor-pointer hover:bg-blue-600 hover:text-white px-4 py-2 rounded-lg"
+                            className="text-purple-dark	font-bold cursor-pointer hover:bg-purple-light hover:text-white px-4 py-2 rounded-lg"
                             onClick={() => handleNavigation('contact')}
                         >
                             Contactanos
