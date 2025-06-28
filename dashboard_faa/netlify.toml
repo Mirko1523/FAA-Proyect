@@ -1,5 +1,5 @@
 [build]
-  base = "dashboard_fma"
+  base = "dashboard_faa"
   command = "npm run build"
   publish = ".next"
 
