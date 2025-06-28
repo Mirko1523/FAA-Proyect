@@ -47,13 +47,13 @@ function SendForm() {
 
     return (
         <div className="max-w-lg mx-auto mt-10 p-5">
-            <h2 className="text-2xl font-bold text-blue-600 text-center mb-5">
-                Contactanos para que construyamos juntos tu idea!
+            <h2 className=" text-2xl font-bold text-purple-dark text-center mb-5">
+                Mandanos un Mensaje para ayudarte
             </h2>
             <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
-                    <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900">
-                        Tu email
+                    <label htmlFor="email" className="block mb-2 text-sm font-semibold text-purple-dark">
+                        Tu Email*
                     </label>
                     <div className="relative">
                         <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -81,8 +81,8 @@ function SendForm() {
                     </div>
                 </div>
                 <div>
-                    <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900">
-                        Tu nombre
+                    <label htmlFor="name" className="block mb-2 text-sm font-semibold text-purple-dark">
+                        Tu nombre*
                     </label>
                     <div className="relative">
                         <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -110,8 +110,8 @@ function SendForm() {
                     </div>
                 </div>
                 <div>
-                    <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900">
-                        Your Message
+                    <label htmlFor="message" className="block mb-2 text-sm font-semibold text-purple-dark">
+                        Tu mensaje*
                     </label>
                     <div className="relative">
                         <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -131,7 +131,7 @@ function SendForm() {
                 <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="block mx-auto font-bold py-2 px-5 text-blue-600  rounded-lg hover:bg-blue-600 hover:text-white transition disabled:opacity-50"
+                    className="block mx-auto font-bold py-2 px-5 text-purple-dark  rounded-lg hover:bg-purple-500 hover:text-white transition disabled:opacity-50"
                 >
                     {isSubmitting ? "Enviando..." : "Enviar"}
                 </button>
